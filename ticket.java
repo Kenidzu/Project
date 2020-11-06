@@ -1,6 +1,8 @@
 package Project;
 
-public class ticket {
+import java.io.Serializable;
+
+public class ticket implements Serializable {
     private int id;
     private int flight_id;
     private String name;

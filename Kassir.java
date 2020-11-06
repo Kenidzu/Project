@@ -43,6 +43,8 @@ public class Kassir extends JPanel {
         setSize(1000,1000);
         setLayout(null);
 
+        boolean connect = Main.connect();
+
         flight_id = new JLabel("flight_id");
         flight_id.setSize(300,30);
         flight_id.setLocation(50,100);
